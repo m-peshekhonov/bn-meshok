@@ -1,0 +1,15 @@
+.nav__item
+{
+	display: inline-block;
+}
+
+.nav__item .link
+{
+	padding: 15px 25px;
+	border: 0;
+}
+
+.nav__item .link:hover
+{
+	background: #f6f6f6;	
+}

@@ -5,7 +5,16 @@ BN.addDecl('header').blockTemplate(function(ctx) {
     ctx.content([
         {
             elem: 'inner',
-            content: 'header'
+            content: [
+                {
+                    block: 'logo',
+                    mix: { block: 'header', elem: 'logo' }
+                },
+                {
+                    block: 'nav',
+                    mix: { block: 'header', elem: 'menu' }
+                }
+            ]
         }
     ]);
 

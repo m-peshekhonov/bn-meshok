@@ -7,5 +7,6 @@ exports.blocks = [
 
     // pages
     { block: 'page-index' },
-    { block: 'page-feed' }
+    { block: 'page-feed' },
+    { block: 'page-about' }
 ];
