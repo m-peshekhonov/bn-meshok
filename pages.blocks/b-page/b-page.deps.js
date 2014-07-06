@@ -1,4 +1,8 @@
 ({
+    mustDeps: [
+        { block: 'i-global' },
+        { block: 'i-router' }
+    ],
     shouldDeps: [
         { block: 'header' },
         { block: 'logo' },
@@ -6,6 +10,6 @@
         { block: 'content' },
         { block: 'footer' },
         { block: 'link' },
-        { block: 'some-block' }
+        { block: 'static-text' }
     ]
 })

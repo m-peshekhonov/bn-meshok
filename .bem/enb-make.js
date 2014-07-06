@@ -6,6 +6,7 @@ module.exports = require('../node_modules/bem-node/enb-make')
         // 'configs/' + process.env['YENV'] + '/common.blocks',
         // 'data.blocks',
         'common.blocks',
+        'lib.blocks',
         'helpers.blocks',
         'pages.blocks'
     ]);

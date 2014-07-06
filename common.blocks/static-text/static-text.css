@@ -1,0 +1,11 @@
+.static-text__text
+{
+	background: #fff;
+	
+	margin-bottom: 45px;
+	padding: 3px 13px 8px;
+
+	border: 1px solid rgba(0, 0, 0, .15);
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+}

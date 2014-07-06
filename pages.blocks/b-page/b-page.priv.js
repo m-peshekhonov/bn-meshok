@@ -8,7 +8,7 @@ BEM.JSON.decl('b-page', {
             { elem: 'css', url: pathPrefix + '.css', ie: false }
         ];
 
-        // Подключаем какие-то свои скрипты (напрмиер api карт)
+        // Подключаем какие-то свои скрипты (например api карт)
         footStatic = [
             // { elem: 'js', url: '//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU' },
             { block: 'i-jquery', elem: 'core' },

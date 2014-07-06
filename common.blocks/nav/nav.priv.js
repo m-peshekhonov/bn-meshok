@@ -11,17 +11,17 @@ BN.addDecl('nav').blockTemplate(function(ctx) {
                 {
                     elem: 'item',
                     url: '/',
-                    content: 'main'
+                    content: 'Главная'
                 },
                 {
                     elem: 'item',
                     url: '/feed',
-                    content: 'feed'
+                    content: 'Новости'
                 },
                 {
                     elem: 'item',
                     url: '/about',
-                    content: 'about'
+                    content: 'О сайте'
                 }
             ]
         }

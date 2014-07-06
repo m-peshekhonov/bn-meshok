@@ -5,7 +5,7 @@ BN.addDecl('footer').blockTemplate(function(ctx) {
     ctx.content([
         {
             elem: 'inner',
-            content: 'footer'
+            content: 'Подвал'
         }
     ]);
 

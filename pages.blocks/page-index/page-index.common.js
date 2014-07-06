@@ -3,7 +3,7 @@ BN.addDecl('page-index', 'page', {
 }).staticProp({
     init: function () {
         return this.out({
-            block: 'some-block'
+            block: 'static-text'
         });
     }
 });
