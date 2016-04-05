@@ -2,12 +2,12 @@
     "name": "bem-node-hello-world",
     "version": "0.0.1",
     "dependencies": {
-        "bem-node": "0.8.7",
-        "enb": "0.8.43",
-        "enb-bemhtml": "0.2.1"
+        "bem-node": "0.9.12",
+        "enb": "0.8.48",
+        "enb-bemhtml": "0.2.2"
     },
     "engines": {
-        "node": ">= 0.8.0"
+        "node": ">= 0.10.20"
     },
     "scripts": {
         "start": "node app/example/example.server.js --socket 3000"

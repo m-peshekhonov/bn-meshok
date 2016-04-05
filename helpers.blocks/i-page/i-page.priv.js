@@ -4,7 +4,7 @@ var pathPrefix = (function() {
         folder = matches[1],
         pageName = matches[2];
 
-    return [staticPrefix, folder, pageName, '_' + pageName].join('/');
+    return [staticPrefix, folder, pageName, pageName].join('/');
 }());
 
 BN.addDecl('i-page').staticProp({
